@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/94af82c675.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  
+  <main>
+    <header>
+      <img src="images/logo.svg" alt="Ping logo">
+    </header>
+    <section>
+      <h1>We are launching <span class="soon">soon!</span></h1>
+      <p>Subscribe and get notified</p>
+    </section>
+    <form id="form-data" action="post">
+      <input type="email" name="email" placeholder="Your email address..." id="">
+      <p id="errormsg"></p>
+      <input type="submit" value="Notify Me">
+      <!-- <button type="submit">Notify Me</button> -->
+    </form>
+    <figure>
+      <img src="images/illustration-dashboard.png" alt="Ping chart">
+    </figure>
+    <footer>
+      <section class="socials">
+        <a href=""><i class="fa-brands fa-facebook-f" id="fbLogo"></i></a>
+        <a href=""><i class="fa-brands fa-twitter" id="twitterLogo"></i></a>
+        <a href=""><i class="fa-brands fa-instagram" id="instaLogo"></i></a>
+      </section>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/OjayII">Ojay</a>.
+      </p>
+    </footer>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
